@@ -3,6 +3,9 @@ html {
 	background-color: #dbd6cf;
 }
 
+body {
+	margin: 0;
+}
 
 a {
 	color: #713754;
