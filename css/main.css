@@ -2,15 +2,15 @@ html {
 
 	background-color: #dbd6cf;
 }
-
 body {
 	margin: 0;
 }
 
 a {
-	color: #713754;
-	font-size: 1.2rem;
+	color: white;
+	font-size: 0.8rem;
 	padding: 0;
+	text-decoration: none;
 }
 
 
@@ -26,15 +26,27 @@ a:hover {
 }
 
 
-h1, h2, h3 {
+h1 {
+	color: white;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 1.5;
+	background-color: #79756f;
+	text-align: center;
+	margin: 0;
+	padding: 0em 0em 0.5em 0em;
+
+	font-family: 'Bevan', cursive;
+
+}
+
+h2, h3 {
 	color: #79756f;
 	font-weight: normal;
 	font-size: 2rem;
 	line-height: 1.5;
 
-	font-family: 'Bevan', cursive;
-
-}
+	font-family: 'Bevan', cursive;}
 
 figcaption {
 	font-style: italic;
@@ -114,4 +126,26 @@ dt {
 	font-family: arial, sans-serif;
 	font-weight: bold;
 	font-size: 1.0rem;
+}
+
+nav {
+	background-color: #79756f;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+ol li a {
+		display:inline-block;
+	padding: 0.5em 0.75em;
+	background-color: #703838;
+	color: white
 }
