@@ -25,13 +25,17 @@ a:hover {
 	list-style-type: lower-roman;
 }
 
+header {
+		background-color: #79756f;
+		padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
 
 h1 {
 	color: white;
 	font-weight: normal;
 	font-size: 2rem;
 	line-height: 1.5;
-	background-color: #79756f;
 	text-align: center;
 	margin: 0;
 	padding: 0em 0em 0.5em 0em;
@@ -129,7 +133,6 @@ dt {
 }
 
 nav {
-	background-color: #79756f;
 	text-align: center;
 }
 
