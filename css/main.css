@@ -1,7 +1,9 @@
 html {
 
 	background-color: #dbd6cf;
+
 }
+
 body {
 	margin: 0;
 }
@@ -17,10 +19,12 @@ a {
 a:hover {
 	color:#ff3252;
 }
+
 .quotationmarks {
 	color:#ff3252;
 	font-size: 1.1rem;
 }
+
 .planet {
 	list-style-type: lower-roman;
 }
@@ -29,6 +33,7 @@ header {
 		background-color: #79756f;
 		padding: 0.5em 0.5em 0.5em 0.5em;
 }
+
 
 
 h1 {
@@ -50,7 +55,9 @@ h2, h3 {
 	font-size: 2rem;
 	line-height: 1.5;
 
-	font-family: 'Bevan', cursive;}
+	font-family: 'Bevan', cursive;
+
+}
 
 figcaption {
 	font-style: italic;
@@ -64,6 +71,11 @@ h2 {
 
 h3 {
 	font-size: 1.2rem;
+}
+
+h4 {
+	font-size: 1.8rem;
+	color: white;
 }
 
 
@@ -81,13 +93,17 @@ blockquote {
 
 
 footer {
-	font-style: italic; /* italic, normal */
-	text-align: right; /* left, center, right, justify*/
-	font-size: 0.8rem;
-	font-family: arial, sans-serif;
-	color: #79757c;
+  background-color: #79756f;
+  padding: 1em;
+  margin: 0;
+  color: #703838;
 }
 
+
+.quoting {
+	font-size: 1rem;
+	text-align: right;
+}
 
 p {
 	font-style: normal; /* italic, normal */
@@ -123,6 +139,7 @@ b {
 
 ul {
 		list-style-type: circle;
+
 }
 
 
@@ -151,4 +168,13 @@ ol li a {
 	padding: 0.5em 0.75em;
 	background-color: #703838;
 	color: white
+}
+
+figure {
+  border: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+  color: #a7a5a0;
 }
